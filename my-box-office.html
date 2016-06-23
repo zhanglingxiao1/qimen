@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>七门影院</title>
+    <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.3.css" />
+    <link rel="stylesheet" href="css/qimen.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.3.js"></script>
+    <script src="js/qimen.js"></script>
+
+  </head>
+  <body>
+    <div data-role="page" data-theme="a">
+    	<!--<div data-role="panel" id="mypanel" data-position="right" data-display="push">
+            <p>
+            	<a href="#" data-ajax="false">
+            		<img src="images/user-icon-2.png"/>
+                </a>
+            </p>
+            <div>
+                <h2>宁致远</h2>
+                <span class="producer-marker marker">出品人</span>
+                <span class="high-producer-marker marker">资深制片人</span>
+            </div>
+            
+            
+            <ul>
+            	<li onclick="location.href='index.html'">
+                	<a href="#" data-ajax="false">
+                    	<span class="icon-home"></span>
+                        <font>首页</font>
+                    </a>
+                </li>
+                <li onclick="location.href='usercenter.html'">
+                	<a href="usercenter.html" data-ajax="false">
+                    	<span class="icon-person-3"></span>
+                        <font>个人中心</font>
+                    </a>
+                </li>
+                <li onclick="location.href='report.html'">
+                	<a href="report.html" data-ajax="false">
+                    	<span class="icon-phone"></span>
+                        <font>反馈</font>
+                    </a>
+                </li>
+                <li onclick="location.href='message.html'">
+                	<a href="#" data-ajax="false">
+                    	<span class="icon-message-3"></span>
+                        <font>消息</font>
+                        <div class="count"><font>1</font></div>
+                    </a>
+                </li>
+                <li onclick="location.href='app.html'">
+                	<a href="#" data-ajax="false">
+                    	<span class="icon-texts"></span>
+                        <font>APP使用说明</font>
+                    </a>
+                </li>
+                <li onclick="location.href='about.html'">
+                	<a href="#">
+                    	<span class="icon-about"></span>
+                        <font>关于我们</font>
+                    </a>
+                </li>
+            </ul>
+        </div>--><!-- /panel -->
+    	<div data-role="header" data-position="fixed" id="header-style">
+            <a href="#" class="ui-nodisc-icon  ui-btn ui-btn-a ui-btn-icon-notext ui-corner-all">
+            	<span class="icon-search search-btn"></span>
+            </a>
+			<h1>我的票房</h1>
+            <!--<a href="publish.html" data-ajax="false" class="ui-nodisc-icon  ui-btn ui-btn-a ui-btn-icon-notext ui-corner-all">
+            	<span class="icon-edit"></span>
+            </a>-->
+            
+            <div class="search-box">
+            	<a href="#"><span class="icon-search"></span></a>
+            	<input type="text" placeholder="搜索你感兴趣的内容"/>
+            </div>
+            
+		</div>
+        <div data-role="content" role="main" class="ui-content box-office-content">
+        	<a href="#" class="banner"><img src="images/banner.png"/></a>
+            <!--<a href="#mypanel" class="menu"><img src="images/menu.png"/></a>-->
+        	
+            <div onclick="location.href='my-box-office-detail.html'">
+            	<div class="buy-ok">
+                	<span class="icon-checkmark"></span><br/>
+                    <font>已认购</font>
+                </div>
+                <div class="info">
+                    <table>
+                        <tr>
+                            <th width="40%">大电影</th>
+                            <th width="20%">收益率</th>
+                            <th width="20%">总金额(元)</th>
+                        </tr>
+                        <tr>
+                            <td>《百变辣妈》《百变辣妈》《百变辣妈》</td>
+                            <td class="yellow">13.8%</td>
+                            <td>10,000</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div onclick="location.href='my-box-office-detail.html'">
+            	<div class="buy-white">
+                	<span class="icon-cancel"></span><br/>
+                    <font>未完成</font>
+                </div>
+                <div class="info">
+                    <table>
+                        <tr>
+                            <th width="40%">大电影</th>
+                            <th width="20%">收益率</th>
+                            <th width="20%">总金额(元)</th>
+                        </tr>
+                        <tr>
+                            <td>《百变辣妈》《百变辣妈》《百变辣妈》</td>
+                            <td class="yellow">13.8%</td>
+                            <td>10,000</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+            <div onclick="location.href='my-box-office-detail.html'">
+            	<div class="buy-no">
+                	<span class="icon-cancel"></span><br/>
+                    <font>待认购</font>
+                </div>
+                <div class="info">
+                    <table>
+                        <tr>
+                            <th width="40%">大电影</th>
+                            <th width="20%">收益率</th>
+                            <th width="20%">总金额(元)</th>
+                        </tr>
+                        <tr>
+                            <td>《百变辣妈》《百变辣妈》《百变辣妈》</td>
+                            <td class="yellow">13.8%</td>
+                            <td>10,000</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+            <div onclick="location.href='my-box-office-detail.html'">
+            	<div class="buy-no">
+                	<span class="icon-cancel"></span><br/>
+                    <font>待认购</font>
+                </div>
+                <div class="info">
+                    <table>
+                        <tr>
+                            <th width="40%">大电影</th>
+                            <th width="20%">收益率</th>
+                            <th width="20%">总金额(元)</th>
+                        </tr>
+                        <tr>
+                            <td>《百变辣妈》《百变辣妈》《百变辣妈》</td>
+                            <td class="yellow">13.8%</td>
+                            <td>10,000</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+            <div onclick="location.href='my-box-office-detail.html'">
+            	<div class="buy-no">
+                	<span class="icon-cancel"></span><br/>
+                    <font>待认购</font>
+                </div>
+                <div class="info">
+                    <table>
+                        <tr>
+                            <th width="40%">大电影</th>
+                            <th width="20%">收益率</th>
+                            <th width="20%">总金额(元)</th>
+                        </tr>
+                        <tr>
+                            <td>《百变辣妈》《百变辣妈》《百变辣妈》</td>
+                            <td class="yellow">13.8%</td>
+                            <td>10,000</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+            <div onclick="location.href='my-box-office-detail.html'">
+            	<div class="buy-money">
+                	<span class="icon-rmb"></span><br/>
+                    <font>总计</font>
+                </div>
+                <div class="info">
+                    <p>
+                    	<span>已认购</span>
+                        <font>5</font>
+                        <span>个大电影;总金额</span>
+                        <font>100,000</font>
+                        <span>(元)</span>
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+		
+        <div data-role="footer" data-position="fixed" data-theme="c" id="footer-nav">
+        	
+            <div data-role="navbar" data-grid="a">
+                <ul>
+                    <li>
+                    	<a href="hot-info.html" data-ajax="false">
+                    		<span class="icon-location-2"></span><br/><font>热点信息</font>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="my-box-office.html" data-ajax="false" class="ui-btn-active">
+                        	<span class="icon-person"></span><br/><font>我的票房</font>
+                        </a>
+                    </li>
+                </ul>
+                
+                <div class="main-menu" onclick="location.href='main-menu-content.html'">
+                	<img src="images/main-img.png"/>
+                </div>
+            </div><!-- /navbar --->
+       
+        </div>
+        
+  	</div>
+  </body>
+</html>

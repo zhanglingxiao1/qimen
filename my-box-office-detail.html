@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>七门影院</title>
+    <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.3.css" />
+    <link rel="stylesheet" href="css/qimen.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.3.js"></script>
+    <script src="js/qimen.js"></script>
+
+  </head>
+  <body>
+    <div data-role="page" data-theme="a">
+    	<!--<div data-role="panel" id="mypanel" data-position="right" data-display="push">
+            <p>
+            	<a href="#" data-ajax="false">
+            		<img src="images/user-icon-2.png"/>
+                </a>
+            </p>
+            <div>
+                <h2>宁致远</h2>
+                <span class="producer-marker marker">出品人</span>
+                <span class="high-producer-marker marker">资深制片人</span>
+            </div>
+            
+            
+            <ul>
+            	<li onclick="location.href='index.html'">
+                	<a href="#" data-ajax="false">
+                    	<span class="icon-home"></span>
+                        <font>首页</font>
+                    </a>
+                </li>
+                <li onclick="location.href='usercenter.html'">
+                	<a href="usercenter.html" data-ajax="false">
+                    	<span class="icon-person-3"></span>
+                        <font>个人中心</font>
+                    </a>
+                </li>
+                <li onclick="location.href='report.html'">
+                	<a href="report.html" data-ajax="false">
+                    	<span class="icon-phone"></span>
+                        <font>反馈</font>
+                    </a>
+                </li>
+                <li onclick="location.href='#'">
+                	<a href="#" data-ajax="false">
+                    	<span class="icon-message-3"></span>
+                        <font>消息</font>
+                        <div class="count"><font>1</font></div>
+                    </a>
+                </li>
+                <li onclick="location.href='app.html'">
+                	<a href="#" data-ajax="false">
+                    	<span class="icon-texts"></span>
+                        <font>APP使用说明</font>
+                    </a>
+                </li>
+                <li onclick="location.href='about.html'">
+                	<a href="#">
+                    	<span class="icon-about"></span>
+                        <font>关于我们</font>
+                    </a>
+                </li>
+            </ul>
+        </div>--><!-- /panel -->
+    	<div data-role="header" data-position="fixed" id="header-style">
+            <a href="#" class="ui-nodisc-icon  ui-btn ui-btn-a ui-btn-icon-notext ui-corner-all">
+            	<span class="icon-search search-btn"></span>
+            </a>
+			<h1>我的票房</h1>
+            <!--<a href="publish.html" data-ajax="false" class="ui-nodisc-icon  ui-btn ui-btn-a ui-btn-icon-notext ui-corner-all">
+            	<span class="icon-edit"></span>
+            </a>-->
+            
+            <div class="search-box">
+            	<a href="#"><span class="icon-search"></span></a>
+            	<input type="text" placeholder="搜索你感兴趣的内容"/>
+            </div>
+            
+		</div>
+        <div data-role="content" role="main" class="ui-content office-content">
+        	
+            <img src="images/main-mv.png"/>
+            <div class="right">
+                <h3>百变辣妈大电影项目</h3>
+                <p>投资额<span>100元/份</span></p>
+                <p>每人限购<span>100份</span></p>
+                <p>总金额<span>1000万</span></p>
+            </div>
+           
+            <div data-role="tabs" id="tabs">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#one" data-ajax="false">金牌</a></li>
+                        <li><a href="#two" data-ajax="false">高级</a></li>
+                        <li><a href="#three" data-ajax="false">普通</a></li>
+                        <li class="last"><a href="#four">初级</a></li>
+                    </ul>
+                </div>
+                <div id="one" class="box-detail">
+                	<div class="box-info">
+                    	<img src="images/box-office-1.png"/>
+                        
+                        <img class="gold" src="images/gold-1.png"/>
+                        <div>
+                        	<h4>金牌出品人</h4>
+                            <small>认购100份</small><br/>
+                            <small>可选座位</small>
+                        </div>
+                    </div>
+                    
+                    <div class="box-buy-content">
+                    	<hr/>
+
+                        <div class="buy-num">
+                            <font>购买数量</font>
+                            <div>
+                                <div class="minue"><span class="icon-remove"></span></div>
+                                <input class="buy-input" type="tel" value="20"/>
+                                <div class="add"><span class="icon-add"></span></div>
+                            </div>
+                        </div>
+                        <hr/>
+                        <div class="buy-seat">
+                            <p>选座位</p>
+                            <ul>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-active.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                            </ul>
+                            <div style="clear: both;"></div>
+                        </div>
+                        <!--<hr/>
+                        <div class="buy-num add-num">
+                            <font>加分机制</font>
+                            <div>
+                                <span>+1</span>
+                                <span>+2</span>
+                                <span>+3</span>
+                                <span>+4</span>
+                                <span>+5</span>
+                            </div>
+                        </div>
+                        <hr/>-->
+                        <div class="buy-button">
+                            <a href="buy-success.html" class="btn btn-default yellow-btn" data-ajax="false" role="button">现在认购 </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="two" class="box-detail">
+                    <div class="box-info">
+                    	<img src="images/box-office-2.png"/>
+                        
+                        <img class="gold" src="images/gold-2.png"/>
+                        <div>
+                        	<h4>金牌出品人</h4>
+                            <small>认购100份</small><br/>
+                            <small>可选座位</small>
+                        </div>
+                    </div>
+                    <div class="box-buy-content">
+                    	<hr/>
+
+                        <div class="buy-num">
+                            <font>购买数量</font>
+                            <div>
+                                <div class="minue"><span class="icon-remove"></span></div>
+                                <input class="buy-input" type="tel" value="20"/>
+                                <div class="add"><span class="icon-add"></span></div>
+                            </div>
+                        </div>
+                        <hr/>
+                        <div class="buy-seat">
+                            <p>选座位</p>
+                            <ul>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-active.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                            </ul>
+                            <div style="clear: both;"></div>
+                        </div>
+                        <!--<hr/>
+                        <div class="buy-num add-num">
+                            <font>加分机制</font>
+                            <div>
+                                <span>+1</span>
+                                <span>+2</span>
+                                <span>+3</span>
+                                <span>+4</span>
+                                <span>+5</span>
+                            </div>
+                        </div>
+                        <hr/>-->
+                        <div class="buy-button">
+                            <a href="buy-fail.html" class="btn btn-default yellow-btn" data-ajax="false" role="button">现在认购 </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="three" class="box-detail">
+                    <div class="box-info">
+                    	<img src="images/box-office-3.png"/>
+                        
+                        <img class="gold" src="images/gold-3.png"/>
+                        <div>
+                        	<h4>金牌出品人</h4>
+                            <small>认购100份</small><br/>
+                            <small>可选座位</small>
+                        </div>
+                    </div>
+                    <div class="box-buy-content">
+                    	<hr/>
+
+                        <div class="buy-num">
+                            <font>购买数量</font>
+                            <div>
+                                <div class="minue"><span class="icon-remove"></span></div>
+                                <input class="buy-input" type="tel" value="20"/>
+                                <div class="add"><span class="icon-add"></span></div>
+                            </div>
+                        </div>
+                        <hr/>
+                        <div class="buy-seat">
+                            <p>选座位</p>
+                            <ul>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-active.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                            </ul>
+                            <div style="clear: both;"></div>
+                        </div>
+                        <!--<hr/>
+                        <div class="buy-num add-num">
+                            <font>加分机制</font>
+                            <div>
+                                <span>+1</span>
+                                <span>+2</span>
+                                <span>+3</span>
+                                <span>+4</span>
+                                <span>+5</span>
+                            </div>
+                        </div>
+                        <hr/>-->
+                        <div class="buy-button">
+                            <a href="buy-success.html" class="btn btn-default yellow-btn" data-ajax="false" role="button">现在认购 </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="four" class="box-detail">
+                    <div class="box-info">
+                    	<img src="images/box-office-4.png"/>
+                        
+                        <img class="gold" src="images/gold-4.png"/>
+                        <div>
+                        	<h4>金牌出品人</h4>
+                            <small>认购100份</small><br/>
+                            <small>可选座位</small>
+                        </div>
+                    </div>
+                    <div class="box-buy-content">
+                    	<hr/>
+
+                        <div class="buy-num">
+                            <font>购买数量</font>
+                            <div>
+                                <div class="minue"><span class="icon-remove"></span></div>
+                                <input class="buy-input" type="tel" value="20"/>
+                                <div class="add"><span class="icon-add"></span></div>
+                            </div>
+                        </div>
+                        <hr/>
+                        <div class="buy-seat">
+                            <p>选座位</p>
+                            <ul>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li class="people"><img src="images/user-icon.png"/></li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-active.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                                <li><img src="images/seat-grey.png"</li>
+                            </ul>
+                            <div style="clear: both;"></div>
+                        </div>
+                        <!--<hr/>
+                        <div class="buy-num add-num">
+                            <font>加分机制</font>
+                            <div>
+                                <span>+1</span>
+                                <span>+2</span>
+                                <span>+3</span>
+                                <span>+4</span>
+                                <span>+5</span>
+                            </div>
+                        </div>
+                        <hr/>-->
+                        <div class="buy-button">
+                            <a href="buy-fail.html" class="btn btn-default yellow-btn" data-ajax="false" role="button">现在认购 </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+		
+        <div data-role="footer" data-position="fixed" data-theme="c" id="footer-nav">
+        	
+            <div data-role="navbar" data-grid="a">
+                <ul>
+                    <li>
+                    	<a href="hot-info.html" data-ajax="false">
+                    		<span class="icon-location-2"></span><br/><font>热点信息</font>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="my-box-office.html" data-ajax="false" class="ui-btn-active">
+                        	<span class="icon-person"></span><br/><font>我的票房</font>
+                        </a>
+                    </li>
+                </ul>
+                
+                <div class="main-menu" onclick="location.href='main-menu-content.html'">
+                	<img src="images/main-img.png"/>
+                </div>
+            </div><!-- /navbar --->
+       
+        </div>
+        
+  	</div>
+  </body>
+</html>

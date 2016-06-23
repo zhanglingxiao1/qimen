@@ -1,0 +1,127 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-k9sjci');
+	src:url('../fonts/icomoon.eot?#iefix-k9sjci') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-k9sjci') format('woff'),
+		url('../fonts/icomoon.ttf?-k9sjci') format('truetype'),
+		url('../fonts/icomoon.svg?-k9sjci#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-back:before {
+	content: "\e616";
+}
+.icon-about:before {
+	content: "\e610";
+}
+.icon-home:before {
+	content: "\e611";
+}
+.icon-message-3:before {
+	content: "\e612";
+}
+.icon-person-3:before {
+	content: "\e613";
+}
+.icon-phone:before {
+	content: "\e614";
+}
+.icon-texts:before {
+	content: "\e615";
+}
+.icon-sound:before {
+	content: "\e60e";
+}
+.icon-camer:before {
+	content: "\e608";
+}
+.icon-more-2:before {
+	content: "\e609";
+}
+.icon-star:before {
+	content: "\e60a";
+}
+.icon-read:before {
+	content: "\e60b";
+}
+.icon-friends:before {
+	content: "\e60c";
+}
+.icon-person:before {
+	content: "\e600";
+}
+.icon-location-2:before {
+	content: "\e601";
+}
+.icon-location-1:before {
+	content: "\e602";
+}
+.icon-message:before {
+	content: "\e603";
+}
+.icon-return:before {
+	content: "\e604";
+}
+.icon-edit:before {
+	content: "\e605";
+}
+.icon-search:before {
+	content: "\e606";
+}
+.icon-add:before {
+	content: "\e618";
+}
+.icon-remove:before {
+	content: "\e619";
+}
+.icon-more-horiz:before {
+	content: "\e60d";
+}
+.icon-heart:before {
+	content: "\f004";
+}
+.icon-heart-o:before {
+	content: "\f08a";
+}
+.icon-angle-right:before {
+	content: "\f105";
+}
+.icon-cny:before {
+	content: "\f157";
+}
+.icon-jpy:before {
+	content: "\f157";
+}
+.icon-rmb:before {
+	content: "\f157";
+}
+.icon-yen:before {
+	content: "\f157";
+}
+.icon-checkmark:before {
+	content: "\e617";
+}
+.icon-cancel:before {
+	content: "\e60f";
+}
+.icon-location:before {
+	content: "\e607";
+}
+.icon-location2:before {
+	content: "\e947";
+}

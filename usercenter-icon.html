@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>七门影院</title>
+    <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.3.css" />
+    <link rel="stylesheet" href="css/qimen.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.3.js"></script>
+    <script src="js/qimen.js"></script>
+
+  </head>
+  <body>
+    <div data-role="page" data-theme="a">
+    	<div data-role="header" data-position="fixed" id="header-style">
+            <a href="#" class="ui-nodisc-icon  ui-btn ui-btn-a ui-btn-icon-notext ui-corner-all" data-rel="back">
+            	<span class="icon-back"></span>
+            </a>
+			<h1>个人中心</h1>
+            <a href="usercenter-icon-edit.html" data-ajax="false" class="ui-nodisc-icon  ui-btn ui-btn-a ui-btn-icon-notext ui-corner-all" >
+            	<span>编辑</span>
+            </a>
+		</div>
+        <div data-role="content" role="main" class="ui-content icon-content">
+        	<div>
+            	<ul>
+                	<li class="icon hidden">
+                    	<span>头像</span>
+                        <a href="javascript:void(0);">
+                        	<img src="images/user-icon-2.png"/>
+                            <span class="icon-angle-right"></span>
+                        </a>
+                        <input type="file" name="" id=""/>
+                        <div style="clear:both;"></div>
+                    </li>
+                    <li>
+                    	<span>名字</span>
+                        <font>宁致远</font>
+                    </li>
+                    <li>
+                    	<span>性别</span>
+                        <font>男</font>
+                    </li>
+                    <li>
+                    	<span>所在地</span>
+                        <font>上海 浦东</font>
+                    </li>
+                    <li class="last hidden">
+                    	<span>个人视频</span>
+                        <font class="upload">上传</font>
+                        <input type="file" name="" id=""/>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+		
+        <div data-role="footer" data-position="fixed" data-theme="c" id="footer-nav">
+        	
+            <div data-role="navbar" data-grid="a">
+                <ul>
+                    <li>
+                    	<a href="hot-info.html" data-ajax="false" class="ui-btn-active">
+                    		<span class="icon-location-2"></span><br/><font>热点信息</font>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="my-box-office.html" data-ajax="false">
+                        	<span class="icon-person"></span><br/><font>我的票房</font>
+                        </a>
+                    </li>
+                </ul>
+                
+                <div class="main-menu" onclick="location.href='main-menu-content.html'">
+                	<img src="images/main-img.png"/>
+                </div>
+            </div><!-- /navbar --->
+       
+        </div>
+        
+  	</div>
+  </body>
+</html>
